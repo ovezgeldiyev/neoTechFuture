@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700 family=Montserrat&family=Nunito&display=swap" rel="stylesheet"/> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>Home</title>
   </head>
@@ -17,19 +20,27 @@
       <div class="auto__container">
         <div class="header__inner">
           <div class="header__inner-logo">
-            <img src="./images/logo.svg" alt="" />
+            <img src="./images/logo.png" alt="" />
           </div>
           <nav class="nav" id="menu">
             <ul class="nav__inner">
               <li>
-                <a href="#">
-                
-                </a>
+                <a href="#"> Home </a>
+              </li>
+              <li>
+                <a href="#"> About </a>
+              </li>
+              <li>
+                <a href="#"> Contact </a>
               </li>
             </ul>
           </nav>
-          <div class="burger" id="menuBtn">
-            <span></span>
+          <div class="header__inner-buttons">
+            <a href="#" class="button primary"> Hazte cliente </a>
+            <a href="#" class="button secondary"> Token NTF </a>
+            <div class="burger" id="menuBtn">
+              <span></span>
+            </div>
           </div>
         </div>
       </div>
@@ -37,37 +48,109 @@
     <!-- header end
     =========================================== -->
     <main>
-    <!-- hero start
+      <!-- hero start
     =========================================== -->
-    <section class="hero" >
-      <div class="auto__container">
-        <div class="hero__inner">
-          
+      <section class="hero">
+        <div class="auto__container">
+          <div class="hero__inner">
+            <div class="hero__inner-content">
+              <h1>
+                ECOSISTEMA FINTECH <br />
+                <strong> PARA EL FUTURO! </strong>
+              </h1>
+              <h4>SOLUCIONES INTELIGENTES PARA PROBLEMAS DIARIOS</h4>
+              <p>
+                Un unicornio registrado con licencia bancaria bajo las
+                regulaciones de El Salvador.
+              </p>
+              <div class="button__row">
+                <a href="#" class="button primary">
+                  Reserva tu Tarjeta VISA en USD
+                </a>
+                <a href="#" class="button secondary"> Token NTF </a>
+                <a href="#" class="hero__inner-content-link">
+                  Ver en la pagina del gobieno de El Salvador
+                </a>
+              </div>
+            </div>
+            <div class="hero__inner-image">
+              <img src="./images/hero.png" alt="" />
+            </div>
+          </div>
         </div>
-      </div>
-      
-    </section>
-    <!-- hero end
+      </section>
+      <!-- hero end
+    =========================================== -->
+      <!-- intro start
+    =========================================== -->
+      <section class="intro">
+          <div class="intro__dark">
+            <div class="intro__dark-inner">
+              <h3>
+                Aplicación Móvil todo-en-uno
+              </h3>
+              <p>
+                Recargas, Pagos, Remesas, Inversiones y mucho más desde una misma aplicación.
+              </p>
+              <div class="intro__image">
+                <img src="./images/intro-1.png" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="intro__light">
+            <div class="intro__light-inner">
+              <h3 class="sm">
+                Tarjeta de Débito <br> VISA x NTF
+              </h3>
+              <p>
+                A través de VISA y el banco emisor, contamos con nuestra tarjeta sin fronteras.
+              </p>
+              <div class="intro__image">
+                <img src="./images/intro-2.png" alt="">
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- intro end
     =========================================== -->
     <!-- intro start
     =========================================== -->
-    <section class="intro">
-      <div class="auto__container">
-        <div class="intro__inner">
-         
+    <section class="intro second">
+      <div class="intro__light">
+        <div class="intro__light-inner">
+          <h3 class="sm">
+            Red de cajeros <br> automáticos NTF
+          </h3>
+          <p>
+            Retira dinero, paga servicios, envía remesas y más desde nuestras terminales autoservicio.
+          </p>
+          <div class="intro__image">
+            <img src="./images/intro-3.png" alt="">
+          </div>
         </div>
       </div>
-    </section>
-    <!-- intro end
-    =========================================== -->
-    <!-- footer start
-    =========================================== -->
-    <footer class="footer">
-      <div class="auto__container">
-
+      <div class="intro__dark">
+        <div class="intro__dark-inner">
+          <h3>
+            Entidad Regulada con Licencia Bancaria
+          </h3>
+          <p>
+            NeoTechFuture cuenta con licencias emitidas por el gobierno de El Salvador
+          </p>
+          <div class="intro__image">
+            <img src="./images/intro-4.png" alt="">
+          </div>
+        </div>
       </div>
-    </footer>
-    <!-- footer end
+  </section>
+  <!-- intro end
+=========================================== -->
+      <!-- footer start
+    =========================================== -->
+      <footer class="footer">
+        <div class="auto__container"></div>
+      </footer>
+      <!-- footer end
     =========================================== -->
     </main>
 
@@ -90,6 +173,5 @@
     <!-- js
     =========================================== -->
     <script src="./js/main.js"></script>
-    
   </body>
 </html>
