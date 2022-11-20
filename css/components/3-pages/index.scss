@@ -90,16 +90,6 @@
     }
 }
 
-// 1380px
-@mixin hero-xxxlg-xxxxlg {
-    .hero {}
-}
-
-// 1250px
-@mixin hero-xlg-xxlg-extra {
-    .hero {}
-}
-
 // 1180px
 @mixin hero-xlg-xxlg {
     .hero {
@@ -163,15 +153,9 @@
     }
 }
 
-// 930px
-@mixin hero-md-lg {
-    .hero {}
-}
-
 // 750px
 @mixin hero-sm-md {
     .hero {
-
         &__inner {
             &-content {
                 &-link {
@@ -314,11 +298,6 @@
     }
 }
 
-// 440px
-@mixin hero-xxsm-xsm {
-    .hero {}
-}
-
 .intro {
     display: flex;
     color: $primary2;
@@ -418,26 +397,6 @@
     }
 }
 
-// 1380px
-@mixin intro-xxxlg-xxxxlg {
-    .intro {}
-}
-
-// 1250px
-@mixin intro-xlg-xxlg-extra {
-    .intro {}
-}
-
-// 1180px
-@mixin intro-xlg-xxlg {
-    .intro {}
-}
-
-// 1024px
-@mixin intro-lg-xlg {
-    .intro {}
-}
-
 // 930px
 @mixin intro-md-lg {
     .intro {
@@ -464,11 +423,6 @@
             margin-bottom: 15px;
         }
     }
-}
-
-// 750px
-@mixin intro-sm-md {
-    .intro {}
 }
 
 // 650px
@@ -598,6 +552,281 @@
         p {
             max-width: 270px;
 
+        }
+    }
+}
+
+.info {
+    background-color: $primary;
+
+    &__inner {
+        padding: 130px 0 160px;
+
+        h2 {
+            margin-bottom: 95px;
+            color: $white;
+            text-align: center;
+        }
+
+        .button {
+            border: 1px solid $main;
+            border-radius: 10px;
+            font-size: 30px;
+            line-height: 30px;
+
+            &.primary {
+                background-color: $main;
+                margin-right: 11px;
+                color: $black;
+                padding: 19px 32px;
+            }
+
+            &.secondary {
+                background-color: transparent;
+                color: $main;
+                padding: 19px 65px;
+            }
+
+            &__row {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 32px;
+            }
+        }
+
+        &>a {
+            color: $gray;
+            text-decoration: underline;
+            font-size: 25px;
+            line-height: 32px;
+            display: block;
+            text-align: center;
+            font-family: $lato;
+        }
+    }
+}
+
+// 1024px
+@mixin info-lg-xlg {
+    .info {
+        &__inner {
+            h2 {
+                margin-bottom: 85px;
+            }
+
+            .button {
+                font-size: 27px;
+                line-height: 27px;
+
+                &.primary {
+                    padding: 18px 30px;
+                }
+
+                &.secondary {
+                    padding: 18px 60px;
+                }
+            }
+        }
+    }
+}
+
+// 930px
+@mixin info-md-lg {
+    .info {
+        &__inner {
+            padding: 110px 0 140px;
+
+            h2 {
+                margin-bottom: 70px;
+            }
+
+            .button {
+                font-size: 24px;
+                line-height: 24px;
+
+                &.primary {
+                    padding: 16px 28px;
+                }
+
+                &.secondary {
+                    padding: 16px 55px;
+                }
+            }
+        }
+    }
+
+}
+
+// 750px
+@mixin info-sm-md {
+    .info {
+        &__inner {
+            padding: 100px 0;
+
+            h2 {
+                margin-bottom: 50px;
+            }
+
+            .button {
+                font-size: 21px;
+                line-height: 21px;
+
+                &.primary {
+                    padding: 14px 24px;
+                }
+
+                &.secondary {
+                    padding: 14px 48px;
+                }
+            }
+
+            &>a {
+                font-size: 22px;
+                line-height: 28px;
+            }
+        }
+    }
+
+}
+
+// 650px
+@mixin info-sm-md-extra {
+    .info {
+        &__inner {
+            padding: 90px 0;
+
+            h2 {
+                margin-bottom: 45px;
+            }
+
+            .button {
+                font-size: 18px;
+                line-height: 18px;
+
+                &.primary {
+                    padding: 12px 20px;
+                }
+
+                &.secondary {
+                    padding: 12px 40px;
+                }
+
+                &__row {
+                    margin-bottom: 25px;
+                }
+            }
+
+            &>a {
+                font-size: 20px;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+// 540px
+@mixin info-xsm-sm {
+    .info {
+        &__inner {
+            padding: 70px 0;
+
+            h2 {
+                margin-bottom: 40px;
+            }
+
+            .button {
+                font-size: 15px;
+                line-height: 15px;
+
+                &.primary {
+                    padding: 11px 15px;
+                }
+
+                &.secondary {
+                    padding: 11px 25px;
+                }
+
+                &__row {
+                    margin-bottom: 22px;
+                }
+            }
+
+        }
+    }
+}
+
+// 440px
+@mixin info-xxsm-xsm {
+    .info {
+        &__inner {
+            padding: 82px 0 40px;
+
+            h2 {
+                margin-bottom: 70px;
+                font-size: 45px;
+                line-height: 50px;
+
+                strong {
+                    font-size: 60px;
+                    line-height: 70px;
+                }
+            }
+
+            .button {
+                font-size: 15px;
+                line-height: 15px;
+
+                &.primary {
+                    padding: 17px 25px;
+                    margin: 0 0 28px 0;
+                }
+
+                &.secondary {
+                    padding: 17px 27px;
+                }
+
+                &__row {
+                    margin-bottom: 22px;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            &>a {
+                max-width: 220px;
+                margin: 0 auto;
+            }
+
+        }
+    }
+}
+
+// 370px
+@mixin info-sm {
+    .info {
+        &__inner {
+            padding: 70px 0 30px;
+
+            h2 {
+                margin-bottom: 60px;
+                font-size: 40px;
+                line-height: 45px;
+
+                strong {
+                    font-size: 48px;
+                    line-height: 55px;
+                }
+            }
+
+            .button {
+                text-align: center;
+                line-height: 18px;
+
+                &.primary {
+                    margin: 0 0 25px 0;
+                }
+
+            }
         }
     }
 }

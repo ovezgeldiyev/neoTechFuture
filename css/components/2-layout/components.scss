@@ -2,6 +2,7 @@ h1 {
     font-weight: 500;
     font-size: 45px;
     line-height: 70px;
+
     strong {
         font-weight: 700;
         font-size: 50px;
@@ -12,6 +13,7 @@ h2 {
     font-weight: 300;
     font-size: 45px;
     line-height: 70px;
+
     strong {
         font-weight: 900;
         font-size: 60px;
@@ -22,6 +24,7 @@ h3 {
     font-weight: 500;
     font-size: 48px;
     line-height: 57px;
+
     &.sm {
         font-size: 45px;
     }
@@ -33,20 +36,19 @@ h4 {
     line-height: 35px;
 }
 
-h5 {
-
-}
-
 h6 {
-
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
 }
-p {
 
-}
+
+
 main {
     overflow: hidden;
     margin-top: 87.93px;
 }
+
 .button {
     display: flex;
     justify-content: center;
@@ -55,12 +57,14 @@ main {
     font-size: 15px;
     line-height: 18px;
     font-weight: 400;
+
     &.primary {
         padding: 9px 25px;
         background-color: #ECECEC;
         color: $black2;
         border: 1px solid #ECECEC;
     }
+
     &.secondary {
         padding: 9px 28px;
         background-color: transparent;

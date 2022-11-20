@@ -1,27 +1,27 @@
-h6 {
-  font-size: 15px;
-  line-height: 18px;
-  font-weight: 500;
-}
 .footer {
   background: $gray2;
+
   &__inner {
     padding: 26px 0 18px;
+
     &-logo {
       width: 241px;
       display: flex;
       align-items: center;
       justify-content: center;
       margin: 0 auto 20px;
+
       img {
         width: 100%;
       }
     }
+
     &-social {
       display: flex;
       justify-content: center;
       margin-bottom: 36px;
     }
+
     &-links {
       display: flex;
       justify-content: space-between;
@@ -29,28 +29,35 @@ h6 {
       margin: 0 auto 20px;
     }
   }
+
   &Social {
     width: 48px;
     height: 48px;
     margin-right: 52px;
+
     &:last-child {
       margin-right: 0;
     }
+
     img {
       width: 100%;
       height: 100%;
       object-fit: contain;
     }
   }
+
   &Links {
     width: calc(33.3% - 10px);
     text-align: center;
+
     &:nth-child(2) {
       display: none;
     }
+
     h6 {
       margin-bottom: 16px;
     }
+
     a {
       font-size: 12px;
       line-height: 20px;
@@ -58,417 +65,208 @@ h6 {
       display: block;
     }
   }
+
   &Logo {
     width: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto 10px;
+
     img {
       width: 100%;
     }
   }
+
   p {
     font-size: 13.92px;
     line-height: 17px;
     text-align: center;
     color: $black2;
   }
-  .auto__container{
-      max-width: 1340px;
+
+  .auto__container {
+    max-width: 1340px;
   }
 }
+
 // 930px
-@mixin footer-md-lg{
-    .footer{
-        &__inner{
-            &-logo{
-                width: 220px;
-            }
-        }
-        &Social{
-            margin-right: 40px;
-            width: 44px;
-            height: 44px;
-        }
-        p{
-            font-size: 12px;
-            line-height: 16px;
-        }
-        &Logo{
-            width: 180px;
-        }
+@mixin footer-md-lg {
+  .footer {
+    &__inner {
+      &-logo {
+        width: 220px;
+      }
     }
+
+    &Social {
+      margin-right: 40px;
+      width: 44px;
+      height: 44px;
+    }
+
+    p {
+      font-size: 12px;
+      line-height: 16px;
+    }
+
+    &Logo {
+      width: 180px;
+    }
+  }
 }
 
 // 750px
 @mixin footer-sm-md {
-    .footer{
-        &__inner{
-            &-logo{
-                width: 200px;
-            }
-        }
-        &Social{
-            margin-right: 30px;
-            width: 42px;
-            height: 42px;
-        }
-        p{
-            font-size: 11px;
-            line-height: 14px;
-        }
-        &Logo{
-            width: 160px;
-        }
-        &Links{
-            h6{
-                font-size: 15px;
-            }
-            a{
-                font-size: 11px;
-            }
-        }
+  .footer {
+    &__inner {
+      &-logo {
+        width: 200px;
+      }
     }
+
+    &Social {
+      margin-right: 30px;
+      width: 42px;
+      height: 42px;
+    }
+
+    p {
+      font-size: 11px;
+      line-height: 14px;
+    }
+
+    &Logo {
+      width: 160px;
+    }
+
+    &Links {
+      h6 {
+        font-size: 15px;
+      }
+
+      a {
+        font-size: 11px;
+      }
+    }
+  }
 }
+
 // 650px
 @mixin footer-sm-md-extra {
-    .footer{
-        &__inner{
-            &-logo{
-                width: 180px;
-            }
-            &-links{
-                flex-wrap: wrap;
-                margin: 0;
-            }
-            &-social{
-                display: none;
-            }
-        }
-       
-        p{
-            font-size: 10px;
-            line-height: 13px;
-        }
-        &Logo{
-            width: 150px;
-        }
-        &Links{
-            width: calc(50% - 10px);
-            margin-bottom: 20px;
-            &:nth-child(2){
-                display: block;
-            }
-            h6{
-                font-size: 15px;
-            }
-            a{
-                font-size: 11px;
-            }
-        }
+  .footer {
+    &__inner {
+      &-logo {
+        width: 180px;
+      }
+
+      &-links {
+        flex-wrap: wrap;
+        margin: 0;
+      }
+
+      &-social {
+        display: none;
+      }
     }
+
+    p {
+      font-size: 10px;
+      line-height: 13px;
+    }
+
+    &Logo {
+      width: 150px;
+    }
+
+    &Links {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
+
+      &:nth-child(2) {
+        display: block;
+      }
+
+      h6 {
+        font-size: 15px;
+      }
+
+      a {
+        font-size: 11px;
+      }
+    }
+  }
 }
+
 // 540px
 @mixin footer-xsm-sm {
-    .footer{
-        &__inner{
-            &-logo{
-                width: 150px;
-            }
-        }
-        &Logo{
-            width: 130px;
-        }
+  .footer {
+    &__inner {
+      &-logo {
+        width: 150px;
+      }
     }
+
+    &Logo {
+      width: 130px;
+    }
+  }
 }
+
 // 390px
 @mixin footer-xxxsm-xxsm {
   .footer {
-      &__inner{
-          padding: 66px 0;
-        &-logo{
-            width: 100%;
-            max-width: 241px;
-            margin-bottom: 60px;
-        }
-        &-links{
-            flex-direction: column;
-        }
-      }
-      &Links{
-          margin: 0 auto 20px;
-          width: 100%;
-          &:last-child{
-              margin-bottom: 27px;
-          }
-          h6{
-              font-size: 15px;
-              line-height: 18px;
-              margin-bottom: 16px;
-          } 
-          a{
-            font-size: 12px;
-            line-height: 20px;
-          }
-      }
-      &Logo{
-          width: 100%;
-          max-width: 200px;
-      }
-      p{
-          font-size: 13px;
-          line-height: 16px;
-          margin: 90px 0 50px;
-          br{
-            display: none;
-          }
-          span{
-              display: none;
-          }
-      }
-  }
-}
-
-.info {
-  background-color: $pink-dark;
-  &__inner {
-    padding: 130px 0 160px;
-    h2 {
-      margin-bottom: 95px;
-      color: $white;
-      text-align: center;
-    }
-    .button {
-      border: 1px solid $main;
-      border-radius: 10px;
-      font-size: 30px;
-      line-height: 30px;
-      &.primary {
-        background-color: $main;
-        margin-right: 11px;
-        color: $black;
-        padding: 19px 32px;
-      }
-      &.secondary {
-        background-color: transparent;
-        color: $main;
-        padding: 19px 65px;
-      }
-      &__row {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 32px;
-      }
-    }
-    & > a {
-      color: $gray;
-      text-decoration: underline;
-      font-size: 25px;
-      line-height: 32px;
-      display: block;
-      text-align: center;
-      font-family: $lato;
-    }
-  }
-}
-
-// 1024px
-@mixin info-lg-xlg {
-  .info {
     &__inner {
-        h2{
-            margin-bottom: 85px;
-        }
-      .button {
-        font-size: 27px;
-        line-height: 27px;
-        &.primary {
-          padding: 18px 30px;
-        }
-        &.secondary {
-          padding: 18px 60px;
-        }
+      padding: 66px 0;
+
+      &-logo {
+        width: 100%;
+        max-width: 241px;
+        margin-bottom: 60px;
+      }
+
+      &-links {
+        flex-direction: column;
+      }
+    }
+
+    &Links {
+      margin: 0 auto 20px;
+      width: 100%;
+
+      &:last-child {
+        margin-bottom: 27px;
+      }
+
+      h6 {
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 16px;
+      }
+
+      a {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
+
+    &Logo {
+      width: 100%;
+      max-width: 200px;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 16px;
+      margin: 90px 0 50px;
+
+      br {
+        display: none;
+      }
+
+      span {
+        display: none;
       }
     }
   }
 }
-
-// 930px
-@mixin info-md-lg{
-    .info {
-        &__inner {
-            padding: 110px 0 140px;
-            h2{
-                margin-bottom: 70px;
-            }
-          .button {
-            font-size: 24px;
-            line-height: 24px;
-            &.primary {
-              padding: 16px 28px;
-            }
-            &.secondary {
-              padding: 16px 55px;
-            }
-          }
-        }
-      }
-
-}
-// 750px
-@mixin info-sm-md{
-    .info {
-        &__inner {
-            padding: 100px 0;
-            h2{
-                margin-bottom: 50px;
-            }
-          .button {
-            font-size: 21px;
-            line-height: 21px;
-            &.primary {
-              padding: 14px 24px;
-            }
-            &.secondary {
-              padding: 14px 48px;
-            }
-          }
-          & > a{
-              font-size: 22px;
-              line-height: 28px;
-          }
-        }
-      }
-
-}
-
-// 650px
-@mixin info-sm-md-extra{
-    .info {
-        &__inner {
-            padding: 90px 0;
-            h2{
-                margin-bottom: 45px;
-            }
-          .button {
-            font-size: 18px;
-            line-height: 18px;
-            &.primary {
-              padding: 12px 20px;
-            }
-            &.secondary {
-              padding: 12px 40px;
-            }
-            &__row{
-                margin-bottom: 25px;
-            }
-          }
-          & > a{
-              font-size: 20px;
-              line-height: 26px;
-          }
-        }
-      }
-}
-
-// 540px
-@mixin info-xsm-sm{
-    .info {
-        &__inner {
-            padding: 70px 0;
-            h2{
-                margin-bottom: 40px;
-            }
-          .button {
-            font-size: 15px;
-            line-height: 15px;
-            &.primary {
-              padding: 11px 15px;
-            }
-            &.secondary {
-              padding: 11px 25px;
-            }
-            &__row{
-                margin-bottom: 22px;
-            }
-          }
-       
-        }
-      }
-}
-// 440px
-@mixin info-xxsm-xsm{
-    .info {
-        &__inner {
-            padding: 82px 0 40px;  
-            h2{
-                margin-bottom: 70px;
-                font-size:45px;
-                line-height:50px;
-                strong{
-                    font-size: 60px;
-                    line-height: 70px;
-                }
-            }
-          .button {
-            font-size: 15px;
-            line-height: 15px;
-            &.primary {
-              padding: 17px 25px;
-              margin: 0 0 28px 0;
-            }
-            &.secondary {
-              padding: 17px 27px;
-            }
-            &__row{
-                margin-bottom: 22px;
-                flex-direction: column;
-                align-items: center;
-            }
-          }
-          & > a{
-              max-width: 220px;
-              margin: 0 auto;
-          }
-       
-        }
-      }
-}
-
-// 370px
-@mixin info-sm{
-    .info {
-        &__inner {
-            padding: 70px 0 30px;  
-            h2{
-                margin-bottom: 60px;
-                font-size:40px;
-                line-height:45px;
-                strong{
-                    font-size: 48px;
-                    line-height: 55px;
-                }
-            }
-          .button {
-              text-align: center;
-              line-height: 18px;
-            &.primary {
-              margin: 0 0 25px 0;
-            }
-            &__row{
-                margin-bottom: 22px;
-                flex-direction: column;
-                align-items: center;
-            }
-          }
-          & > a{
-              max-width: 220px;
-              margin: 0 auto;
-          }
-       
-        }
-      }
-}
-
-

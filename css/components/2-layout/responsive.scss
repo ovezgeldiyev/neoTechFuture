@@ -1,261 +1,305 @@
-// 1450px
-@include xxxxlg-xxxxxlg {
-    // @include hero-xxxxlg-xxxxxlg;
-}
-// 1380px
-@include xxxlg-xxxxlg {
-    @include hero-xxxlg-xxxxlg;
-}
-// 1250px
-@include xlg-xxlg-extra {
-    @include hero-xlg-xxlg-extra;
-}
 // 1180px
 @include xlg-xxlg {
     .auto__container {
         padding: 0 30px;
     }
+
     h1 {
         font-size: 40px;
         line-height: 65px;
+
         strong {
             font-size: 45px;
         }
     }
-    
+
     h2 {
         font-size: 40px;
         line-height: 65px;
+
         strong {
             font-size: 55px;
         }
     }
-    
+
     h3 {
         font-size: 43px;
         line-height: 53px;
+
         &.sm {
             font-size: 40px;
         }
     }
-    
+
     h4 {
         font-size: 30px;
         line-height: 30px;
     }
+
     @include hero-xlg-xxlg;
 }
+
 // 1024px
 @include lg-xlg {
-    ::-webkit-scrollbar{
+    ::-webkit-scrollbar {
         display: none;
     }
+
     h1 {
         font-size: 35px;
         line-height: 50px;
+
         strong {
             font-size: 40px;
         }
     }
-    
+
     h2 {
         font-size: 35px;
         line-height: 60px;
+
         strong {
             font-size: 50px;
         }
     }
-    
+
     h3 {
         font-size: 38px;
         line-height: 45px;
+
         &.sm {
             font-size: 35px;
         }
     }
-    
+
     h4 {
         font-size: 25px;
         line-height: 25px;
     }
+
     p {
         font-size: 18px;
         line-height: 23px;
     }
-    @include hero-lg-xlg;
+
     @include header-lg-xlg;
+    @include hero-lg-xlg;
+    @include info-lg-xlg;
 
 }
+
 // 930px
 @include md-lg {
     h1 {
         font-size: 30px;
         line-height: 43px;
+
         strong {
             font-size: 35px;
         }
     }
-    
+
     h2 {
         font-size: 30px;
         line-height: 50px;
+
         strong {
             font-size: 40px;
         }
     }
-    
+
     h3 {
         font-size: 30px;
         line-height: 40px;
+
         &.sm {
             font-size: 28px;
         }
     }
-    
+
     h4 {
         font-size: 22px;
         line-height: 22px;
     }
+
     p {
         font-size: 16px;
         line-height: 20px;
     }
-    @include hero-md-lg;
-    @include intro-md-lg;
 
+    @include intro-md-lg;
+    @include info-md-lg;
+    @include footer-md-lg;
 }
+
 // 750px
 @include sm-md {
     h1 {
         font-size: 25px;
         line-height: 34px;
+
         strong {
             font-size: 30px;
         }
     }
-    
+
     h2 {
         font-size: 25px;
         line-height: 40px;
+
         strong {
             font-size: 30px;
         }
     }
-    
+
     h3 {
         font-size: 25px;
         line-height: 34px;
+
         &.sm {
             font-size: 23px;
         }
     }
-    
+
     h4 {
         font-size: 18px;
         line-height: 18px;
     }
+
     p {
         font-size: 14px;
         line-height: 17px;
     }
+
     @include hero-sm-md;
+    @include info-sm-md;
+    @include footer-sm-md;
 }
+
 // 650px
 @include sm-md-extra {
     .auto__container {
         padding: 0 20px;
     }
+
     main {
         margin-top: 83.34px;
     }
+
     h1 {
         font-size: 30px;
         line-height: 40px;
+
         strong {
             font-size: 38px;
         }
     }
-    
+
     h2 {
         font-size: 25px;
         line-height: 40px;
+
         strong {
             font-size: 30px;
         }
     }
-    
+
     h3 {
         font-size: 22px;
         line-height: 28px;
+
         &.sm {
             font-size: 20px;
         }
     }
-    
+
     h4 {
         font-size: 30px;
         line-height: 30px;
     }
+
     p {
         font-size: 21px;
         line-height: 27px;
     }
+
     @include header-sm-md-extra;
     @include nav-sm-md-extra;
     @include hero-sm-md-extra;
     @include intro-sm-md-extra;
-
+    @include info-sm-md-extra;
+    @include footer-sm-md-extra;
 }
+
 // 540px
-@include xsm-sm  {
+@include xsm-sm {
     h3 {
         font-size: 48px;
         line-height: 57px;
+
         &.sm {
             font-size: 45px;
         }
     }
+
     @include hero-xsm-sm;
     @include intro-xsm-sm;
-
+    @include info-xsm-sm;
+    @include footer-xsm-sm;
 }
+
 // 440px
-@include xxsm-xsm  {
+@include xxsm-xsm {
     main {
         margin-top: 68.75px;
     }
+
     @include header-xxsm-xsm;
     @include nav-xxsm-xsm;
-    @include hero-xxsm-xsm;
     @include intro-xxsm-xsm;
+    @include info-xxsm-xsm;
 
 }
+
 // 390px
-@include xxxsm-xxsm  {
+@include xxxsm-xxsm {
     .auto__container {
         padding: 0 16px;
     }
+
     h1 {
         font-size: 25px;
         line-height: 35px;
+
         strong {
             font-size: 30px;
         }
     }
+
     h3 {
         font-size: 40px;
         line-height: 48px;
+
         &.sm {
             font-size: 35px;
         }
     }
+
     h4 {
         font-size: 25px;
         line-height: 25px;
     }
+
     p {
         font-size: 17px;
         line-height: 25px;
     }
+
+    @include footer-xxxsm-xxsm;
+
 }
 
+// 370px
+@include sm {
+    @include info-sm;
+}
