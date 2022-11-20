@@ -45,13 +45,53 @@
 // 1024px
 @mixin header-lg-xlg {
     .header {
-    
+      &__inner {
+        &-buttons {
+          .button {
+            margin-right: 10px;
+            font-size: 13px;
+            line-height: 15px;
+            &.primary {
+              padding: 9px 20px;
+            }
+            &.secondary {
+              padding: 9px 22px;
+            }
+            &:last-of-type {
+              margin-right: 20px;
+            }
+          }
+        }
+      }
     }
 }
-// 540px
-@mixin header-xsm-sm {
+// 650px
+@mixin header-sm-md-extra {
+  .header {
+    &__inner {
+      padding: 6px 0;
+      &-logo {
+        width: 85px;
+      }
+      &-buttons {
+        .button {
+          display: none;
+        }
+      }
+    }
+
+  }
+}
+// 440px
+@mixin header-xxsm-xsm {
     .header {
-    
+      &__inner {
+        padding: 5px 0;
+        &-logo {
+          width: 70px;
+        }
+      }
+
     }
 }
 @keyframes sticky {
