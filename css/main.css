@@ -122,7 +122,7 @@ h4 {
 
 main {
   overflow: hidden;
-  margin-top: 88px;
+  margin-top: 87.93px;
 }
 
 .button {
@@ -239,10 +239,10 @@ main {
 }
 .nav {
   position: fixed;
-  top: 88px;
+  top: 87.93px;
   left: 0;
   width: 100%;
-  height: calc(100% - 88px);
+  height: calc(100% - 87.93px);
   z-index: 9;
   background: rgba(0, 0, 0, 0.2);
   -webkit-transform: translateX(100%);
@@ -589,6 +589,7 @@ body.active {
   .auto__container {
     padding: 0 30px;
   }
+
   h1 {
     font-size: 40px;
     line-height: 65px;
@@ -596,6 +597,7 @@ body.active {
   h1 strong {
     font-size: 45px;
   }
+
   h2 {
     font-size: 40px;
     line-height: 65px;
@@ -603,6 +605,7 @@ body.active {
   h2 strong {
     font-size: 55px;
   }
+
   h3 {
     font-size: 43px;
     line-height: 53px;
@@ -610,10 +613,12 @@ body.active {
   h3.sm {
     font-size: 40px;
   }
+
   h4 {
     font-size: 30px;
     line-height: 30px;
   }
+
   .hero {
     padding: 8% 0;
   }
@@ -622,6 +627,7 @@ body.active {
   ::-webkit-scrollbar {
     display: none;
   }
+
   h1 {
     font-size: 35px;
     line-height: 50px;
@@ -629,6 +635,7 @@ body.active {
   h1 strong {
     font-size: 40px;
   }
+
   h2 {
     font-size: 35px;
     line-height: 60px;
@@ -636,6 +643,7 @@ body.active {
   h2 strong {
     font-size: 50px;
   }
+
   h3 {
     font-size: 38px;
     line-height: 45px;
@@ -643,14 +651,17 @@ body.active {
   h3.sm {
     font-size: 35px;
   }
+
   h4 {
     font-size: 25px;
     line-height: 25px;
   }
+
   p {
     font-size: 18px;
     line-height: 23px;
   }
+
   .hero {
     padding: 10% 0;
   }
@@ -690,6 +701,7 @@ body.active {
   .hero__inner .button.secondary {
     padding: 9px 22px;
   }
+
   .header__inner-buttons .button {
     margin-right: 10px;
     font-size: 13px;
@@ -713,6 +725,7 @@ body.active {
   h1 strong {
     font-size: 35px;
   }
+
   h2 {
     font-size: 30px;
     line-height: 50px;
@@ -720,6 +733,7 @@ body.active {
   h2 strong {
     font-size: 40px;
   }
+
   h3 {
     font-size: 30px;
     line-height: 40px;
@@ -727,14 +741,17 @@ body.active {
   h3.sm {
     font-size: 28px;
   }
+
   h4 {
     font-size: 22px;
     line-height: 22px;
   }
+
   p {
     font-size: 16px;
     line-height: 20px;
   }
+
   .intro.second .intro__dark {
     padding-bottom: 15px;
   }
@@ -759,6 +776,7 @@ body.active {
   h1 strong {
     font-size: 30px;
   }
+
   h2 {
     font-size: 25px;
     line-height: 40px;
@@ -766,6 +784,7 @@ body.active {
   h2 strong {
     font-size: 30px;
   }
+
   h3 {
     font-size: 25px;
     line-height: 34px;
@@ -773,14 +792,17 @@ body.active {
   h3.sm {
     font-size: 23px;
   }
+
   h4 {
     font-size: 18px;
     line-height: 18px;
   }
+
   p {
     font-size: 14px;
     line-height: 17px;
   }
+
   .hero__inner-content-link {
     font-size: 12px;
     line-height: 14px;
@@ -812,9 +834,11 @@ body.active {
   .auto__container {
     padding: 0 20px;
   }
+
   main {
-    margin-top: 83.4px;
+    margin-top: 83.34px;
   }
+
   h1 {
     font-size: 30px;
     line-height: 40px;
@@ -822,6 +846,7 @@ body.active {
   h1 strong {
     font-size: 38px;
   }
+
   h2 {
     font-size: 25px;
     line-height: 40px;
@@ -829,6 +854,7 @@ body.active {
   h2 strong {
     font-size: 30px;
   }
+
   h3 {
     font-size: 22px;
     line-height: 28px;
@@ -836,14 +862,17 @@ body.active {
   h3.sm {
     font-size: 20px;
   }
+
   h4 {
     font-size: 30px;
     line-height: 30px;
   }
+
   p {
     font-size: 21px;
     line-height: 27px;
   }
+
   .header__inner {
     padding: 6px 0;
   }
@@ -853,9 +882,10 @@ body.active {
   .header__inner-buttons .button {
     display: none;
   }
+
   .nav {
-    top: 83.4px;
-    height: calc(100% - 83.4px);
+    top: 83.34px;
+    height: calc(100% - 83.34px);
   }
   .nav__inner .header__inner-buttons {
     display: -webkit-box;
@@ -873,6 +903,7 @@ body.active {
   .nav__inner .header__inner-buttons .button:last-of-type {
     margin: 0;
   }
+
   .hero {
     padding: 60px 0;
   }
@@ -926,6 +957,7 @@ body.active {
   .hero__inner .button.secondary {
     padding: 17px 25px;
   }
+
   .intro.second .intro__dark .intro__image {
     margin-top: 20px;
   }
@@ -951,6 +983,7 @@ body.active {
   h3.sm {
     font-size: 45px;
   }
+
   .hero__inner-content-link {
     max-width: 224px;
   }
@@ -973,6 +1006,7 @@ body.active {
     width: 100%;
     max-width: 135px;
   }
+
   .intro {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1027,18 +1061,21 @@ body.active {
 }
 @media (max-width: 440px) {
   main {
-    margin-top: 68.8px;
+    margin-top: 68.75px;
   }
+
   .header__inner {
     padding: 5px 0;
   }
   .header__inner-logo {
     width: 70px;
   }
+
   .nav {
-    top: 68.8px;
-    height: calc(100% - 68.8px);
+    top: 68.75px;
+    height: calc(100% - 68.75px);
   }
+
   .intro.second .intro__dark .intro__image {
     margin: 0;
   }
@@ -1059,6 +1096,7 @@ body.active {
   .auto__container {
     padding: 0 16px;
   }
+
   h1 {
     font-size: 25px;
     line-height: 35px;
@@ -1066,10 +1104,20 @@ body.active {
   h1 strong {
     font-size: 30px;
   }
+
+  h3 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  h3.sm {
+    font-size: 35px;
+  }
+
   h4 {
     font-size: 25px;
     line-height: 25px;
   }
+
   p {
     font-size: 17px;
     line-height: 25px;
