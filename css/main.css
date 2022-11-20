@@ -122,7 +122,7 @@ h4 {
 
 main {
   overflow: hidden;
-  margin-top: 88px;
+  margin-top: 87.93px;
 }
 
 .button {
@@ -239,10 +239,10 @@ main {
 }
 .nav {
   position: fixed;
-  top: 88px;
+  top: 87.93px;
   left: 0;
   width: 100%;
-  height: calc(100% - 88px);
+  height: calc(100% - 87.93px);
   z-index: 9;
   background: rgba(0, 0, 0, 0.2);
   -webkit-transform: translateX(100%);
@@ -986,7 +986,7 @@ h6 {
   }
 
   main {
-    margin-top: 83.4px;
+    margin-top: 83.34px;
   }
 
   h1 {
@@ -1034,8 +1034,8 @@ h6 {
   }
 
   .nav {
-    top: 83.4px;
-    height: calc(100% - 83.4px);
+    top: 83.34px;
+    height: calc(100% - 83.34px);
   }
   .nav__inner .header__inner-buttons {
     display: -webkit-box;
@@ -1211,7 +1211,7 @@ h6 {
 }
 @media (max-width: 440px) {
   main {
-    margin-top: 68.8px;
+    margin-top: 68.75px;
   }
 
   .header__inner {
@@ -1222,8 +1222,8 @@ h6 {
   }
 
   .nav {
-    top: 68.8px;
-    height: calc(100% - 68.8px);
+    top: 68.75px;
+    height: calc(100% - 68.75px);
   }
 
   .intro.second .intro__dark .intro__image {
@@ -1253,6 +1253,14 @@ h6 {
   }
   h1 strong {
     font-size: 30px;
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  h3.sm {
+    font-size: 35px;
   }
 
   h4 {

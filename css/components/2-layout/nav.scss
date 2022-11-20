@@ -1,9 +1,9 @@
 .nav {
     position: fixed;
-    top: 88px;
+    top: 87.93px;
     left: 0;
     width: 100%;
-    height: calc(100% - 88px);
+    height: calc(100% - 87.93px);
     z-index: 9;
     background: rgba($color: #000000, $alpha: 0.2);
     transform: translateX(100%);
@@ -123,8 +123,8 @@ body.active {
 // 650px
 @mixin nav-sm-md-extra {
     .nav {
-        top: 83.4px;
-        height: calc(100% - 83.4px);
+        top: 83.34px;
+        height: calc(100% - 83.34px);
 
         &__inner {
             .header__inner-buttons {
@@ -147,7 +147,7 @@ body.active {
 // 440px
 @mixin nav-xxsm-xsm {
     .nav {
-        top: 68.8px;
-        height: calc(100% - 68.8px);
+        top: 68.75px;
+        height: calc(100% - 68.75px);
     }
 }
