@@ -28,28 +28,41 @@
 @include md-lg {
   @include hero-md-lg;
   @include info-md-lg;
-
+  @include footer-md-lg;
 }
 // 750px
 @include sm-md {
   @include hero-sm-md;
   @include info-sm-md;
-
+  @include footer-sm-md;
 }
 // 650px
 @include sm-md-extra {
   @include hero-sm-md-extra;
+  @include info-sm-md-extra;
+  @include footer-sm-md-extra;
+
 }
 // 540px
 @include xsm-sm  {
   @include hero-xsm-sm;
+  @include info-xsm-sm;
+  @include footer-xsm-sm;
 }
 // 440px
 @include xxsm-xsm  {
   @include hero-xxsm-xsm;
+  @include info-xxsm-xsm;
+
 }
 // 390px
 @include xxxsm-xxsm  {
-  // @include hero-xxxsm-xxsm;
+   @include footer-xxxsm-xxsm;
+
 }
+
+@include sm{
+  @include info-sm;
+}
+
 
