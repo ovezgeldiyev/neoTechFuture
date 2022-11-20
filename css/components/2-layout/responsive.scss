@@ -267,6 +267,12 @@
         padding: 0 16px;
     }
 
+    @include footer-xxxsm-xxsm;
+
+}
+
+// 370px
+@include sm {
     h1 {
         font-size: 25px;
         line-height: 35px;
@@ -294,12 +300,5 @@
         font-size: 17px;
         line-height: 25px;
     }
-
-    @include footer-xxxsm-xxsm;
-
-}
-
-// 370px
-@include sm {
     @include info-sm;
 }
