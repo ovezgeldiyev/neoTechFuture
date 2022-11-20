@@ -710,3 +710,59 @@ h6 {
     display: none;
   }
 }
+@media (max-width: 1024px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .info__inner .button {
+    font-size: 27px;
+    line-height: 27px;
+  }
+  .info__inner .button.primary {
+    padding: 18px 30px;
+  }
+  .info__inner .button.secondary {
+    padding: 18px 60px;
+  }
+}
+@media (max-width: 930px) {
+  .info__inner {
+    padding: 110px 0 140px;
+  }
+  .info__inner h2 {
+    margin-bottom: 80px;
+  }
+  .info__inner .button {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .info__inner .button.primary {
+    padding: 16px 28px;
+  }
+  .info__inner .button.secondary {
+    padding: 16px 55px;
+  }
+}
+@media (max-width: 750px) {
+  .info__inner {
+    padding: 100px 0;
+  }
+  .info__inner h2 {
+    margin-bottom: 70px;
+  }
+  .info__inner .button {
+    font-size: 21px;
+    line-height: 21px;
+  }
+  .info__inner .button.primary {
+    padding: 14px 24px;
+  }
+  .info__inner .button.secondary {
+    padding: 14px 48px;
+  }
+  .info__inner > a {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}

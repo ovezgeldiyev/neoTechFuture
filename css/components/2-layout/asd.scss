@@ -8,6 +8,7 @@
 }
 // 1250px
 @include xlg-xxlg-extra {
+
   @include hero-xlg-xxlg-extra;
 }
 // 1180px
@@ -20,14 +21,20 @@
       display: none;
   }
   @include hero-lg-xlg;
+  @include info-lg-xlg;
+
 }
 // 930px
 @include md-lg {
   @include hero-md-lg;
+  @include info-md-lg;
+
 }
 // 750px
 @include sm-md {
   @include hero-sm-md;
+  @include info-sm-md;
+
 }
 // 650px
 @include sm-md-extra {
