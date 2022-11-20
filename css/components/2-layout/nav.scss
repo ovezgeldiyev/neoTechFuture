@@ -68,6 +68,7 @@
         position: absolute;
         left: 50%;
         @include transformX;
+        border-radius: 3px;
     }
 
     span {
@@ -80,6 +81,8 @@
         left: 50%;
         @include transform;
         @include transition;
+        border-radius: 3px;
+
     }
 
     &::after {
@@ -92,6 +95,8 @@
         position: absolute;
         left: 50%;
         @include transformX;
+        border-radius: 3px;
+
     }
 
     &.active {
