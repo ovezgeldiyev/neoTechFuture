@@ -63,6 +63,10 @@
       line-height: 20px;
       color: $black2;
       display: block;
+      transition: .2s ease;
+      &:hover {
+        color: #b29609;
+      }
     }
   }
 
@@ -217,7 +221,7 @@
 @mixin footer-xxxsm-xxsm {
   .footer {
     &__inner {
-      padding: 66px 0;
+      padding: 66px 0 30px;
 
       &-logo {
         width: 100%;
@@ -258,15 +262,7 @@
     p {
       font-size: 14px;
       line-height: 16px;
-      margin: 90px 0 50px;
 
-      br {
-        display: none;
-      }
-
-      span {
-        display: none;
-      }
     }
   }
 }

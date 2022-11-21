@@ -24,6 +24,15 @@
                 text-align: center;
                 color: #AAAAAA;
                 position: relative;
+                transition: .2s ease;
+
+                &:hover {
+                    color: $main;
+
+                    &::before {
+                        background-color: $main;
+                    }
+                }
 
                 &::before {
                     position: absolute;
@@ -33,6 +42,7 @@
                     width: 100%;
                     height: 1px;
                     background-color: #AAAAAA;
+                    transition: .2s ease;
                 }
             }
         }
@@ -69,6 +79,12 @@
                 border-color: $main;
                 color: $black;
                 width: calc(68% - 11px);
+
+                &:hover {
+                    background-color: #b29609;
+                    border-color: #b29609;
+                    opacity: 1;
+                }
             }
 
             &.secondary {
@@ -76,6 +92,11 @@
                 color: $main;
                 width: 32%;
                 margin-right: 0;
+                &:hover {   
+                    background-color: $main;
+                    color: $black;
+                    opacity: 1;
+                }
             }
 
             &__row {
@@ -302,6 +323,7 @@
     display: flex;
     color: $primary2;
     text-align: center;
+
     &.second {
         .intro__dark {
             padding-bottom: 25px;
@@ -578,12 +600,23 @@
                 margin-right: 11px;
                 color: $black;
                 padding: 19px 32px;
+                &:hover {
+                    background-color: #b29609;
+                    border-color: #b29609;
+                    opacity: 1;
+                }
             }
 
             &.secondary {
                 background-color: transparent;
                 color: $main;
                 padding: 19px 65px;
+                &:hover {   
+                    background-color: $main;
+                    color: $black;
+                    opacity: 1;
+
+                }
             }
 
             &__row {
@@ -601,6 +634,11 @@
             display: block;
             text-align: center;
             font-family: $lato;
+            transition: .2s ease;
+
+            &:hover {
+                color: $main;
+            }
         }
     }
 }

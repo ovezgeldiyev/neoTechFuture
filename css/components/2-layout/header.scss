@@ -35,6 +35,19 @@
       align-items: center;
       .button {
         margin-right: 16px;
+        &.primary {
+          &:hover {
+            background-color: $main;
+            border-color: $main;
+            color: $black;
+          }
+        }
+        &.secondary {
+          &:hover {
+            border-color: $main;
+            color: $main;
+          }
+        }
         &:last-of-type {
           margin-right: 36px;
         }
