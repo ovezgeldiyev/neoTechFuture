@@ -315,9 +315,15 @@ main {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 5px;
+  width: 100%;
 }
 .nav__inner li a {
   padding: 10px 15px;
+  width: 100%;
+  text-align: center;
+}
+.nav__inner li a:hover {
+  color: #EDDD65;
 }
 
 .burger {
@@ -594,8 +600,8 @@ body.active {
   width: calc(68% - 11px);
 }
 .hero__inner .button.primary:hover {
-  background-color: #b29609;
-  border-color: #b29609;
+  background-color: #fff;
+  border-color: #fff;
   opacity: 1;
 }
 .hero__inner .button.secondary {
@@ -605,8 +611,8 @@ body.active {
   margin-right: 0;
 }
 .hero__inner .button.secondary:hover {
-  background-color: #EDDD65;
-  color: #000;
+  border-color: #fff;
+  color: #fff;
   opacity: 1;
 }
 .hero__inner .button__row {
@@ -751,8 +757,8 @@ body.active {
   padding: 19px 32px;
 }
 .info__inner .button.primary:hover {
-  background-color: #b29609;
-  border-color: #b29609;
+  background-color: #fff;
+  border-color: #fff;
   opacity: 1;
 }
 .info__inner .button.secondary {
@@ -761,8 +767,8 @@ body.active {
   padding: 19px 65px;
 }
 .info__inner .button.secondary:hover {
-  background-color: #EDDD65;
-  color: #000;
+  border-color: #fff;
+  color: #fff;
   opacity: 1;
 }
 .info__inner .button__row {

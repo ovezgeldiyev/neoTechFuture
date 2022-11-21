@@ -81,8 +81,8 @@
                 width: calc(68% - 11px);
 
                 &:hover {
-                    background-color: #b29609;
-                    border-color: #b29609;
+                    background-color: $white;
+                    border-color: $white;
                     opacity: 1;
                 }
             }
@@ -93,8 +93,8 @@
                 width: 32%;
                 margin-right: 0;
                 &:hover {   
-                    background-color: $main;
-                    color: $black;
+                    border-color: $white;
+                    color: $white;
                     opacity: 1;
                 }
             }
@@ -601,8 +601,8 @@
                 color: $black;
                 padding: 19px 32px;
                 &:hover {
-                    background-color: #b29609;
-                    border-color: #b29609;
+                    background-color: $white;
+                    border-color: $white;
                     opacity: 1;
                 }
             }
@@ -612,8 +612,8 @@
                 color: $main;
                 padding: 19px 65px;
                 &:hover {   
-                    background-color: $main;
-                    color: $black;
+                    border-color: $white;
+                    color: $white;
                     opacity: 1;
 
                 }

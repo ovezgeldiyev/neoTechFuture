@@ -38,9 +38,14 @@
             justify-content: center;
             align-items: center;
             margin-bottom: 5px;
-
+            width: 100%;
             a {
                 padding: 10px 15px;
+                width: 100%;
+                text-align: center;
+                &:hover {
+                    color: $main;
+                }
             }
         }
     }
